@@ -1,4 +1,4 @@
-package com.maven;
+package com.github.maven;
 
 public class HelloWorld{
 	public static void main(String args[]) {
