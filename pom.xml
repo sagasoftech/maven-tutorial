@@ -6,6 +6,10 @@
   <name>maven-tutorial</name>
   <packaging>jar</packaging>
   
+  <properties> 
+  	<java.version>11</java.version>
+  </properties>
+  
   <build>
   	<plugins>
   		<plugin>
@@ -13,7 +17,7 @@
   			<artifactId>maven-compiler-plugin</artifactId>
   			<version>3.8.0</version>
   			<configuration>
-  				<release>${env.JAVA_HOME}</release>
+  				<release>${java.version}</release>
   			</configuration>
   		</plugin>
   	</plugins>
